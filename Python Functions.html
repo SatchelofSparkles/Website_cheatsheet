@@ -1,0 +1,583 @@
+<html>
+	<head>
+		<title>Prototype HyperCheatSheet</title>
+		<link rel = "stylesheet" type="text/css" href="style.css"/>
+<!--
+		<script src = "myScript.js">
+		</script>
+-->	
+	</head>
+	<body>
+		<div id = "container">
+			<div id = "header" class = "top">
+				<h1>My Website</h1>
+			</div>
+		<div id = "content" class = "middle">
+			<div id = "nav" class = "left">
+				<h3>Navigation</h3>
+				<ul>
+					<h4><li><a class = "selected" href = "">Homepage</a></li></h4>
+					<h4><li><a href = "">Python</a></li></h4>
+					
+					<li><!--a href = ""-->Pandas</a></li>
+					<li><!--a href = ""-->NumPy</a></li>
+					<li><!--a href = ""-->Django</a></li>
+					<li><!--a href = ""-->Flask</a></li>
+					
+					<h4><li><!--a href = ""-->Web Dev</a></li></h4>
+					<li><!--a href = ""-->HTML</a></li>
+					<li><!--a href = ""-->CSS</a></li>
+					<li><!--a href = ""-->JavaScript</a></li>
+					<!--
+					<h4><li><a href = "">Relational Databases</a></li></h4>
+					<li><a href = "">ANSI standard SQL</a></li>
+					<li><a href = "">Variations of SQL</a></li>
+					<li><a href = "">NoSQL</a></li>
+					<h4><li><a href = "">Other Languages</a></li></h4>
+					<li><a href = "">Java</a></li>
+					<li><a href = "">DAX</a></li>
+					<li><a href = "">PHP</a></li> -->
+				</ul>
+				
+			</div>
+			
+			
+			
+			<div id = "main" class = "content">
+				<h2><a href="index.html">Home</a> / <a href="Python.html">Python</a> / <a href="Python Functions.html">Python Functions</a></h2>
+				<div id = "slides">
+
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Returns the absolute value of an int or float, or magnitude of a complex number
+					
+print(abs(-10.3))
+
+	--> returns 10.3">	abs()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Returns True if all elements in a list, tuple, string etc are True (or Truthy).
+If  empty, returns True.
+					
+List1 = [True, True, True]
+List2 = [True, True, 1]
+List3 = [True, 1, 0]
+				
+L1, L2, L3 = all(List1), all(List2), all(List3)
+					
+print(L1, L2, L3)
+					
+	--> returns True True False">	all()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Returns True if any element in a list, tuple, string etc is True (or Truthy).
+if empty, returns False
+
+List1 = [True, False, 0]
+List2 = []
+List3 = [False, 0, 0]
+
+L1, L2, L3 = any(List1), any(List2), any(List3)
+
+print(L1, L2, L3)
+
+	--> returns True False False">	any()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title='Returns an object unchanged, except that elements that are not ascii will replaced with escape characters
+x = ascii("ê")
+y = "ê"
+print(x, "; ", y)
+
+	--> returns "xea" ; ê'>	ascii()	</span>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title='Returns an integer in binary form, prefixed with "0b".
+
+a, b, c, d, e, f, g, h, i, j, k, l, m = bin(-2), bin(-1), bin(0), bin(1), bin(2), bin(3), bin(4), bin(5), bin(6), bin(7), bin(8), bin(9), bin(10)
+
+print(a, b, c, d, e, f, g, h, i, j, k, l, m)
+
+	--> returns -0b10 -0b1 0b0 0b1 0b10 0b11 0b100 0b101 0b110 0b111 0b1000 0b1001 0b1010'>	bin()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title='Returns the boolean value of an object - ie show you whether a given object registers as truthy or falsy.
+
+a, b, c, d, e, f = bool(True), bool(False), bool(1), bool(0), bool("y"), bool("n")
+
+print(a, b, c, d, e, f)
+
+	--> returns True False True False True True'>	bool()	</span></h4>
+					<p><p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Output depends on input">	bytearray()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Return a new “bytes” object, which is an immutable sequence of integers in the range 0 <= x < 256. bytes is an immutable version of bytearray – it has the same non-mutating methods and the same indexing and slicing behavior.">	bytes()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Return True if the object argument appears callable, False if not. If this returns True, it is still possible that a call fails, but if it is False, calling object will never succeed. Note that classes are callable (calling a class returns a new instance); instances are callable if their class has a __call__() method.">	callable()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Return the string representing a character whose Unicode code point is the integer i. For example, chr(97) returns the string 'a', while chr(8364) returns the string '€'. This is the inverse of ord().">	chr()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Transform a method into a class method. A class method receives the class as implicit first argument, just like an instance method receives the instance.">	classmethod()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Compile the source into a code or AST object. Code objects can be executed by exec() or eval(). source can either be a normal string, a byte string, or an AST object. Refer to the ast module documentation for information on how to work with AST objects.">	compile()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="Return a complex number with the value real + imag*1j or convert a string or number to a complex number. If the first parameter is a string, it will be interpreted as a complex number and the function must be called without a second parameter. The second parameter can never be a string. Each argument may be any numeric type (including complex). If imag is omitted, it defaults to zero and the constructor serves as a numeric conversion like int and float. If both arguments are omitted, returns 0j.">	complex()	</span></h4>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	delattr()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	dict()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	dir()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	divmod()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	enumerate()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	eval()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	exec()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	filter()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	float()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	format()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	frozenset()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	getattr()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	globals()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	hasattr()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	hash()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	help()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	hex()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	id()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	input()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	int()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	isinstance()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	issubclass()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	iter()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	lambda()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	len()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	list()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	locals()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	map()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	max()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	memoryview()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	min()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	next()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	object()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	oct()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	open()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	ord()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	pow()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	print()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	property()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	range()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	reduce()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	repr()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	reversed()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	round()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	set()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	setattr()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	slice()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	sorted()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	str()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	sum()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	super()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	tuple()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	type()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	vars()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+				<div class = "slide">
+				<a href="Python Functions.html">
+					<h4>  <span title="		">	zip()	</span></h4>
+					<p>		<p>
+			</div>
+			</a>
+			
+
+			</div>
+			</div>
+				<div id = "Ext" class = "right">
+				<h3>External Links</h3>
+				<ul>
+					<h4><li><a href = "https://www.python.org/">Python.org</a></li></h4>
+					<li><a href = "https://numpy.org/">NumPy.org</a></li>
+					<li><a href = "https://pandas.pydata.org/">Pandas</a></li>
+					<li><a href = "www.djangoproject.com">djangoproject.com</a></li>
+					<li><a href = "https://flask.palletsprojects.com/en/1.1.x/">Flask</a></li>
+					<h4><li><a href = "https://www.w3schools.com/default.asp">w3schools</a></li></h4>
+					<li><a href = "https://www.w3schools.com/html/default.asp">w3 HTML</a></li>
+					<li><a href = "https://www.w3schools.com/css/default.asp">w3 CSS</a></li>
+					<li><a href = "https://www.w3schools.com/js/default.asp">w3 JS</a></li>
+					<li><a href = "https://www.w3schools.com/sql/default.asp">w3 SQL</a></li>
+					<li><a href = "https://www.w3schools.com/python/default.asp">w3 Python</a></li>
+					<h4><li>Other</li></h4>
+					<li><a href = "https://www.sanfoundry.com/">SanFoundry</a></li>
+					<li><a href = "www.php.net">PHP.net</a></li>
+		</div>
+		<div id = "footer" class = "bottom">
+			<i>&copy; 2020 E Johnson</i>
+		</div>
+	</div>
+</html>
